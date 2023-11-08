@@ -1,5 +1,6 @@
 import './globals.css'
 import Blobs from './components/Blobs'
+import Navbar from './components/Navbar'
 
 export const metadata = {
   title: "In Limbo",
@@ -17,6 +18,7 @@ export default function RootLayout({
         <link rel="icon" href='/favicon.ico'/>
       </head>
       <body className="bg-stone-900">
+        <Navbar/>
         {children}
       </body>
     </html>
