@@ -3,6 +3,9 @@ import { getSortedPostsData, getPostData } from "@/lib/posts"
 import { notFound } from "next/navigation"
 import Link from "next/link"
 
+
+import Navbar from '../../components/Navbar'
+
 export function generateStaticParams() {
     const posts = getSortedPostsData()
 
@@ -41,17 +44,18 @@ export default async function Post({ params }: { params: { postId: string } }) {
     const pubDate = getFormattedDate(date)
 
     return (
-        <main className="px-6 prose prose-xl prose-slate dark:prose-invert mx-auto">
-            <h1 className="text-3xl mt-4 mb-0">{title}</h1>
-            <p className="mt-0">
-                {pubDate}
-            </p>
-            <article>
-                <section dangerouslySetInnerHTML={{ __html: contentHtml }} />
-                <p>
-                    <Link href="/">← Back to home</Link>
-                </p>
-            </article>
-        </main>
+        <body className="dark:bg-stone-900">
+            <Navbar/>
+            <main className="px-10 prose prose-xl prose-slate dark:prose-invert mx-auto">
+                <h1 className="text-center text-3xl mt-8 mb-0">{title}</h1>
+                <p className="text-center mt-0">{pubDate}</p>
+                <article>
+                    <section dangerouslySetInnerHTML={{ __html: contentHtml }} />
+                    <p>
+                        <Link href="/" className="no-underline"> ← </Link>
+                    </p>
+                </article>
+            </main>
+        </body>
     )
 }

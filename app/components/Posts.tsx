@@ -5,9 +5,9 @@ export default function Posts() {
     const posts = getSortedPostsData()
 
     return (
-        <section className="py-6 mx-auto max-w-2xl border-t border-white/20">
+        <section className="text-center py-6 mx-auto max-w-2xl border-t border-white/20">
             <h2 className="text-xl font-bold dark:text-white/90">
-                {"My latest brain farts,"}
+                {"My latest brain farts"}
             </h2>
             <ul className="w-full">
                 {posts.map(post => (
