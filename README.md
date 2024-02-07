@@ -1,8 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+  <img width="100" src="https://github.com/Kaiyulul/kyle-in-limbo/assets/81610743/a26dab63-0e02-481a-acc3-2094bcef418a"/>
+</p>
 
-## Getting Started
+<h1 align="center">
+  "In Limbo"
+</h1>
+<p align="center">
+  This is my <a href="https://kyle-in-limbo.vercel.app/" target="_blank"> blog </a> for anything that runs through my noggin'! Not so much a professional blog at the moment, currently just personal trauma dumping or journaling. Feel free to take a peek if you feel like it!
+</p>
 
-First, run the development server:
+## 💬 A lil' sumthin' on the project
+  I was prompted to make this project on the need for an output and safe space for me and me only. Integrating some dev-side into making this into a reality, I wanted to try Next.js and TailwindCSS just for the sake of it. The goal wasn't to deploy this publically, but to try something and hope that it works. I can't quite find the specific video I took the base from, but it definitely helped in making the site. However, I'll make sure to add my own pizzazz on future commits.
+
+## 🛠 Running locally
+
+Run the development server:
 
 ```bash
 npm run dev
@@ -13,26 +25,3 @@ pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
