@@ -25,7 +25,7 @@ export function getSortedPostsData() {
         return blogPost
     });
 
-    return allPostsData.sort((a, b) => a.date > b.date ? 1 : -1);
+    return allPostsData.sort((a, b) => Date.parse(b.date) - Date.parse(a.date));
 }
 
 export async function getPostData(id: string) {

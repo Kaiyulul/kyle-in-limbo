@@ -3,7 +3,7 @@ title: 'Purposeful intention'
 date: '2024-2-7'
 ---
 
-> What is my goal in life?
+> Would I be proud of the life I lived if I died tomorrow?
 
 I often find myself reflecting on what I have been doing every so often. Recently, I have been looking on my current first-job-hunt status and how it has been unfortunately uneventful despite my efforts. While it is something my peers can relate to, I can't help but think that maybe I am doing something wrong—that maybe I am just not cut out for it. Yet, I find myself trying anyway despite the uncertainties it entails. 
 
