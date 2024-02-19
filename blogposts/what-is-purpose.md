@@ -5,7 +5,7 @@ date: '2024-2-7'
 
 > Would I be proud of the life I lived if I died tomorrow?
 
-I often find myself reflecting on what I have been doing every so often. Recently, I have been looking at my current first-job-hunt status and how it could have been more uneventful despite my efforts. While it is something my peers can relate to, I can't help but think that maybe I am doing something wrong—that maybe I am just not cut out for it. Yet, I find myself trying anyway despite the uncertainties it entails. 
+I often find myself reflecting on what I have been doing every now and then. Recently, I have been looking at my current first-job-hunt status and how it could has been uneventful despite my efforts. While it is something my peers can relate to, I can't help but think that maybe I am doing something wrong—that maybe I am just not cut out for it. Yet, I find myself trying anyway despite the uncertainties it entails. 
 
 The journey of seeking my first job has been marked with doubt and regret. Looking back at my time in Ateneo, I should have done more over the pandemic and utilized my free time for working on myself for my future career as opposed to moping around waiting for match queues and binging Modern Family. I could have joined my home organization. I could have done bootcamps. I could have studied better. There are way too many could've-would've-should'ves that haunt me to this day, thoughts that I can't quite shake off. 
 
