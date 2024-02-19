@@ -1,6 +1,7 @@
 import { url } from "inspector"
 import Link from "next/link"
 import { FiGithub } from "react-icons/fi"
+import { FiHash } from "react-icons/fi";
 
 export default function Navbar() {
     return (
@@ -10,6 +11,9 @@ export default function Navbar() {
                     <Link href="/" className="text-black/80 hover:text-black dark:text-white/90 no-underline dark:hover:text-white">In Limbo</Link>
                 </h1>
                 <div className="hidden sm:flex flex-row justify-center sm:justify-evenly align-middle gap-4 items-center text-white text-base">
+                    <Link className="text-black/80 hover:text-black dark:text-white/90 no-underline dark:hover:text-white" href={`/quotes`}>
+                        <FiHash />
+                    </Link>
                     <Link className="text-black/80 hover:text-black dark:text-white/90 no-underline dark:hover:text-white" href="https://github.com/Kaiyulul">
                         <FiGithub />
                     </Link>
